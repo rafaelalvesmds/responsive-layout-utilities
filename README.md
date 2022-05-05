@@ -8,12 +8,9 @@
 
 - Creating an Angular application
 
-<br><br>
-
-## Creating an Angular application
-
 <br>
 
+## Creating an Angular application
 
 ### Install the Angular CLI
 <i> only for those who have never run an angular application </i>
