@@ -42,3 +42,34 @@ ng add @angular/material
 ````
 <br>
 
+### Create Home Components 
+<br>
+
+````bash
+ng g m --route home --module app.module
+````
+<br>
+
+### Create Shared Components 
+<br>
+
+````bash
+ng g c input
+````
+````bash
+ng g m input
+````
+<br>
+
+### Install Flex-Layout 
+<br>
+
+````bash
+npm i @angular/flex-layout
+````
+<br>
+
+<i> Add in Module Component ( Ex: Home ) </i>
+
+![image](https://user-images.githubusercontent.com/84939473/168107768-c10a4352-d7cf-40ff-9629-c2c8757a46b2.png)
+
