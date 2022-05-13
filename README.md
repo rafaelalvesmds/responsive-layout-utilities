@@ -101,5 +101,13 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 ## 🌐 Create generic components ( Input, Header );
 
+### Input
+https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/input
+<br>
+
+### Header
+https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/header
+<br>
+
 
 
