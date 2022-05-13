@@ -108,6 +108,25 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/inp
 ### Header
 https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/header
 <br>
+<br>
+<br>
+
+## 🔀 Ways to make the page responsive;
 
 
+### Add in component.ts
+````bash
+  getScreenWidth!: number;
 
+  ngOnInit(): void {
+    this.getScreenWidth = window.innerWidth;
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onWindowResize() {
+    this.getScreenWidth = window.innerWidth;
+  }
+  ````
+  <br>
+  
+  ### 
