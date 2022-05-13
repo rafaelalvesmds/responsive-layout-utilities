@@ -117,7 +117,7 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/hea
 ### component.ts
   <br>
 
-
+<i>Get a variable with the current page width</i>
 ````bash
   getScreenWidth!: number;
 
@@ -133,6 +133,9 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/hea
   <br>
   
 ### component.scss
+<br>
+
+<i>mediaQuery</i>
 ````bash
 // Tablet
 @media only screen and (min-width: 599px) and (max-width: 1279px) {
@@ -147,12 +150,44 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/hea
 <br>
 
 ### component.html
-````bash
-fxFlex [ default ]
-fxFlex.xl [ screen and (min-width: 1920px) and (max-width: 5000px) ]
-fxFlex.lg [ screen and (min-width: 1280px) and (max-width: 1919px) ]
-fxFlex.md [ screen and (min-width: 960px) and (max-width: 1279px) ]
-fxFlex.sm [ screen and (min-width: 600px) and (max-width: 959px) ]
-fxFlex.xs [ screen and (max-width: 599px) ]
-````
 <br>
+
+- FlexLayout commands
+ 
+<table>
+  <tr>
+    <th>fxLayout</th>
+    <th>fxLayoutAlign</th>
+    <th>fxLayoutGap</th>
+    <th>fxFlex</th>
+  </tr>
+  
+  <tr>
+    <td> Direction </td>
+    <td > Alignment </td>
+    <td> Interval </td>
+    <td> Size </td>
+  </tr>
+</table>
+
+<br>
+
+- Responsibilities
+
+<table>
+  <tr>
+    <th>xl</th>
+    <th>lg</th>
+    <th>md</th>
+    <th>sm</th>
+    <th>xs</th>
+  </tr>
+  
+  <tr>
+    <td> 1920px < 5000px </td>
+    <td >1280px < 1919px </td>
+    <td> 960px < 1279px </td>
+    <td> 600px < 959px </td>
+    <td> < 599px </td>
+  </tr>
+</table>
