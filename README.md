@@ -152,7 +152,7 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/hea
 ### component.html
 <br>
 
-- FlexLayout commands
+<i>FlexLayout commands</i>
  
 <table>
   <tr>
@@ -172,7 +172,7 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/hea
 
 <br>
 
-- Responsibilities
+<i>Responsibilities</i>
 
 <table>
   <tr>
