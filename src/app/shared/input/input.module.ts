@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { InputComponent } from './input.component';
+import { MaterialModule } from '../material/material.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 
@@ -9,7 +11,9 @@ import { InputComponent } from './input.component';
     InputComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MaterialModule,
+    FlexLayoutModule
   ],
   exports: [
     InputComponent
