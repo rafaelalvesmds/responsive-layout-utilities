@@ -112,9 +112,12 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/hea
 <br>
 
 ## 🔀 Ways to make the page responsive;
+  <br>
+
+### component.ts
+  <br>
 
 
-### Add in component.ts
 ````bash
   getScreenWidth!: number;
 
@@ -129,4 +132,27 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/hea
   ````
   <br>
   
-  ### 
+### component.scss
+````bash
+// Tablet
+@media only screen and (min-width: 599px) and (max-width: 1279px) {
+
+}
+
+// Smartphone
+@media only screen and (max-width: 599px) {
+
+}
+````
+<br>
+
+### component.html
+````bash
+fxFlex [ default ]
+fxFlex.xl [ screen and (min-width: 1920px) and (max-width: 5000px) ]
+fxFlex.lg [ screen and (min-width: 1280px) and (max-width: 1919px) ]
+fxFlex.md [ screen and (min-width: 960px) and (max-width: 1279px) ]
+fxFlex.sm [ screen and (min-width: 600px) and (max-width: 959px) ]
+fxFlex.xs [ screen and (max-width: 599px) ]
+````
+<br>
