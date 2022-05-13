@@ -5,7 +5,19 @@
 <br>
 <br>
 
-## Layouts ( Desktop, Tablet, Smartphone )
+# Summary
+
+- Layouts
+- Creating an Angular application;
+- Structure the project ( Folders and Modules );
+- Create generic components ( Input, Header );
+- Ways to make the page responsive
+- 
+
+<br>
+<br>
+
+## 🖼️ Layouts ( Desktop, Tablet, Smartphone )
 <br>
 
 
@@ -21,17 +33,7 @@
 <br>
 <br>
 
-# Summary
-
-- Creating an Angular application;
-- Structure the project ( Folders and Modules );
-- Create generic components ( Input, Header );
-- Ways to make the page responsive
-
-
-<br>
-
-## Creating an Angular application
+## ▶️ Creating an Angular application
 
 ### Install the Angular CLI
 <i> only for those who have never run an angular application </i>
@@ -67,11 +69,12 @@ npm i @angular/flex-layout
 <br>
 <br>
 
-## Structure the project ( Folders and Modules );
+## 📁 Structure the project ( Folders and Modules );
 <br> 
 
 ![image](https://user-images.githubusercontent.com/84939473/168277820-94689354-6d64-4e71-8623-8ed7b36b9ea3.png)
 
+<br>
 
 ### Create Home Components 
 
@@ -79,17 +82,6 @@ npm i @angular/flex-layout
 ng g m --route home --module app.module
 ````
 <br>
-
-<i> Add FlexLayoutModule in Module Component ( Ex: Home ) </i>
-````bash
-import { FlexLayoutModule } from '@angular/flex-layout';
-````
-
-![image](https://user-images.githubusercontent.com/84939473/168107768-c10a4352-d7cf-40ff-9629-c2c8757a46b2.png)
-<br>
-<br>
-
-## Create generic components ( Input, Header );
 
 ### Create Shared Components 
 
@@ -100,4 +92,14 @@ ng g c input
 ng g m input
 ````
 <br>
+
+### Add FlexLayoutModule in imports of Module Components
+````bash
+import { FlexLayoutModule } from '@angular/flex-layout';
+````
+<br>
+
+## 🌐 Create generic components ( Input, Header );
+
+
 
