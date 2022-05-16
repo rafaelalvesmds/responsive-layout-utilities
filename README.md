@@ -100,7 +100,6 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 <br>
 
 ## 🌐 Create generic components ( Input, Header );
-<br>
 
 ### Input
 https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/input
@@ -113,7 +112,9 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/hea
 <br>
 
 ## 🔀 Ways to make the page responsive;
-  <br>
+https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/pages/exemples
+<br>
+<br>
 
 ### component.ts
   <br>
