@@ -1,10 +1,23 @@
-.page {
-    margin: 1%;
+.page,
+table {
+  margin: 1%;
 }
 
 button {
-    background-color: black;
-    color: white;
-    height: 50px;
+  background-color: black;
+  color: white;
+  height: 50px;
 }
 
+@media only screen and (max-width: 599px) {
+  .page,
+  table {
+    margin: 2%;
+  }
+}
+
+@media only screen and (min-width: 599px) and (max-width: 1279px) {
+  .page {
+    margin-bottom: 40px;
+  }
+}

@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" fxLayout="column">
   <app-header></app-header>
   <div class="page">
     <div
@@ -35,4 +35,78 @@
       <app-input titulo="Input" fxFlex="20"></app-input>
     </div>
   </div>
+
+  <table
+    mat-table
+    [dataSource]="dataSource"
+    fxFlex="100"
+    class="mat-elevation-z8"
+  >
+    <ng-container matColumnDef="coluna1">
+      <th mat-header-cell cdkDrag *matHeaderCellDef>Coluna 1</th>
+      <td mat-cell *matCellDef="let element">{{ element.coluna1 }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="coluna2">
+      <th
+        mat-header-cell
+        cdkDrag
+        *matHeaderCellDef
+        [style.display]="getScreenWidth < 599 ? 'none' : ''"
+      >
+        Coluna 2
+      </th>
+      <td
+        mat-cell
+        *matCellDef="let element"
+        [style.display]="getScreenWidth < 599 ? 'none' : ''"
+      >
+        {{ element.coluna2 }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="coluna3">
+      <th
+        mat-header-cell
+        cdkDrag
+        *matHeaderCellDef
+        [style.display]="getScreenWidth < 960 ? 'none' : ''"
+      >
+        Coluna 3
+      </th>
+      <td
+        mat-cell
+        *matCellDef="let element"
+        [style.display]="getScreenWidth < 960 ? 'none' : ''"
+      >
+        {{ element.coluna3 }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="coluna4">
+      <th
+        mat-header-cell
+        cdkDrag
+        *matHeaderCellDef
+        [style.display]="getScreenWidth < 960 ? 'none' : ''"
+      >
+        Coluna 4
+      </th>
+      <td
+        mat-cell
+        *matCellDef="let element"
+        [style.display]="getScreenWidth < 960 ? 'none' : ''"
+      >
+        {{ element.coluna4 }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="coluna5">
+      <th mat-header-cell cdkDrag *matHeaderCellDef>Coluna 5</th>
+      <td mat-cell *matCellDef="let element">{{ element.coluna5 }}</td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="columns"></tr>
+    <tr mat-row *matRowDef="let row; columns: columns"></tr>
+  </table>
 </div>
