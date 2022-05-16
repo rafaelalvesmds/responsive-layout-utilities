@@ -20,16 +20,15 @@
 ## 🖼️ Layouts ( Desktop, Tablet, Smartphone )
 <br>
 
-
-![MacBook Pro 14_ - 1](https://user-images.githubusercontent.com/84939473/168274203-655052d3-4bd8-4cdb-b3ef-33c7e955bc99.png)
+![2](https://user-images.githubusercontent.com/84939473/168598322-65894e3f-7ca4-4006-a799-68b8692aeab6.png)
 <br>
 <br>
 
-![iPad Pro 12 9_ - 1](https://user-images.githubusercontent.com/84939473/168274234-18d34317-8bd5-40c3-b21b-a2927f1ae593.png)
+![3](https://user-images.githubusercontent.com/84939473/168598355-d488c62b-090c-42a3-b7f9-5bc5131a5f75.png)
 <br>
 <br>
  
-![13 Pro - 3](https://user-images.githubusercontent.com/84939473/168273793-43fe1fe6-767f-4035-baf2-89a9bd0e46e5.png)
+ ![4](https://user-images.githubusercontent.com/84939473/168598379-f2cc9db2-6fd1-4905-b0ca-8099279a949c.png)
 <br>
 <br>
 
