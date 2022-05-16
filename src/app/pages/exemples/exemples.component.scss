@@ -1,0 +1,29 @@
+.scss {
+  color: green;
+}
+
+// Tablet
+@media only screen and (min-width: 599px) and (max-width: 1279px) {
+  .scss {
+    color: blue;
+  }
+}
+
+// Smartphone
+@media only screen and (max-width: 599px) {
+  .scss {
+    color: red;
+  }
+}
+
+.icon-green {
+  color: green;
+}
+
+.icon-blue {
+  color: blue;
+}
+
+.icon-red {
+  color: red;
+}

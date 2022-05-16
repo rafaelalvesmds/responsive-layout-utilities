@@ -1,0 +1,33 @@
+<div class="container">
+  <app-header></app-header>
+
+  <h1>Ways to make the page responsive</h1>
+
+  <mat-card>
+    <div>
+      <h2>component.ts</h2>
+      <p>{{ getScreenWidth }}</p>
+    </div>
+  </mat-card>
+
+  <mat-card>
+    <div>
+      <h2 class="scss">component.scss</h2>
+      <mat-icon class="icon-green">circle</mat-icon> Desktop
+      <mat-icon class="icon-blue">circle</mat-icon> Tablet
+      <mat-icon class="icon-red">circle</mat-icon> Smartphone
+    </div>
+  </mat-card>
+
+  <mat-card>
+    <div fxFlex="100" fxLayout="column">
+      <h2>component.ts</h2>
+      <div fxFlex="100" fxLayout="row" fxLayout.xs="column" fxLayoutGap="10px">
+        <app-input fxFlex="25" fxFlex.xs="100"></app-input>
+        <app-input fxFlex="25" fxFlex.xs="100"></app-input>
+        <app-input fxFlex="25" fxFlex.xs="100"></app-input>
+        <app-input fxFlex="25" fxFlex.xs="100"></app-input>
+      </div>
+    </div>
+  </mat-card>
+</div>
