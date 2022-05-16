@@ -1,4 +1,5 @@
 import { Component, HostListener, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +8,7 @@ import { Component, HostListener, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
     this.getScreenWidth = window.innerWidth;
@@ -19,5 +20,5 @@ export class HeaderComponent implements OnInit {
   onWindowResize() {
     this.getScreenWidth = window.innerWidth;
   }
-  
+
 }
