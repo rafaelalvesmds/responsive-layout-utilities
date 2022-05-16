@@ -12,7 +12,8 @@
 - Structure the project ( Folders and Modules );
 - Create generic components ( Input, Header );
 - Ways to make the page responsive
-- 
+- .
+- Bibliographic reference
 
 <br>
 <br>
@@ -191,3 +192,12 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/hea
     <td> < 599px </td>
   </tr>
 </table>
+<br> <br>
+
+## Bibliographic reference
+
+- https://angular.io/
+- https://material.angular.io/
+- https://www.npmjs.com/package/@angular/flex-layout
+- https://tburleson-layouts-demos.firebaseapp.com/#/docs
+- https://github.com/angular/flex-layout/wiki/API-Documentation
