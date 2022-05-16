@@ -1,27 +1,27 @@
-<div class="container">
+<div class="container" >
   <app-header></app-header>
 
   <h1>Ways to make the page responsive</h1>
 
-  <mat-card>
+  <mat-card class="mat-elevation-z8">
     <div>
-      <h2>component.ts</h2>
-      <p>{{ getScreenWidth }}</p>
+      <h2>Component.ts</h2>
+      <p>Width Page = {{ getScreenWidth }}</p>
     </div>
   </mat-card>
 
-  <mat-card>
+  <mat-card class="mat-elevation-z8">
     <div>
-      <h2 class="scss">component.scss</h2>
+      <h2 class="scss">Component.scss</h2>
       <mat-icon class="icon-green">circle</mat-icon> Desktop
       <mat-icon class="icon-blue">circle</mat-icon> Tablet
       <mat-icon class="icon-red">circle</mat-icon> Smartphone
     </div>
   </mat-card>
 
-  <mat-card>
+  <mat-card class="mat-elevation-z8">
     <div fxFlex="100" fxLayout="column">
-      <h2>component.ts</h2>
+      <h2>Component.html</h2>
       <div fxFlex="100" fxLayout="row" fxLayout.xs="column" fxLayoutGap="10px">
         <app-input fxFlex="25" fxFlex.xs="100"></app-input>
         <app-input fxFlex="25" fxFlex.xs="100"></app-input>
