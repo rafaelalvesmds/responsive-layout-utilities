@@ -41,7 +41,7 @@
 <br>
 
 - #### Install the Angular CLI
-<i> ( only for those who have never run an angular application )</i>
+<i> ( Skip this step if you already have Angular CLI installed )</i>
 
 ````bash
 npm install -g @angular/cli
