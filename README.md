@@ -2,6 +2,15 @@
 	🚀 Responsive Layout 🚀
 </h1>
 
+  <div style="display: inline_block" align="center"><br>
+    <img align="center" alt="Rafa-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+    <img align="center" alt="Rafa-Angular" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+  </div>
+  
+  <br/>  
+  
+
+
 <br>
 <br>
 
@@ -206,4 +215,14 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/pages/exem
 
 ## Author
 
-   <table> <td ><a href="https://github.com/rafaelalvesmds"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/84939473?s=96&v=4" width="100px;" alt=""/><br /><sub><b>Rafael Alves</b></sub></a><br /></td></table>
+   <table> <td ><a href="https://github.com/rafaelalvesmds"><img src="https://avatars.githubusercontent.com/u/84939473?s=96&v=4" width="100px;" alt=""/><br /><sub><b>Rafael Alves</b></sub></a><br /></td></table>
+
+<br>
+
+
+## Contact
+<div> 
+    <a href="https://discord.gg/hjAZmUSM" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank" ></a> 
+    <a href = "mailto:rafaelalvesmds.dev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/rafael-alves-02a749213/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+</div>
