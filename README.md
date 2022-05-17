@@ -103,9 +103,9 @@ ng g m input
 import { FlexLayoutModule } from '@angular/flex-layout';
 ````
 <br>
+<br>
 
 ## 🌐 Create generic components ( Input, Header );
-<br>
 
 - #### Input
 https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/input
@@ -113,6 +113,7 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/inp
 
 - #### Header
 https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/header
+<br>
 <br>
 <br>
 
