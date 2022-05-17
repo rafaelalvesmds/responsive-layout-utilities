@@ -11,8 +11,8 @@
 - Creating an Angular application;
 - Structure the project ( Folders and Modules );
 - Create generic components ( Input, Header );
-- Ways to make the page responsive
-- Bibliographic reference
+- Ways to make the page responsive;
+- Bibliographic reference;
 
 <br>
 <br>
