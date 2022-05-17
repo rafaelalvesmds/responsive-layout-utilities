@@ -7,11 +7,6 @@
     <img align="center" alt="Rafa-Angular" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
   </div>
   
-  <br/>  
-  
-
-
-<br>
 <br>
 
 # Summary
@@ -42,9 +37,10 @@
 <br>
 
 ## ▶️ Creating an Angular application
+<br>
 
-### Install the Angular CLI
-<i> only for those who have never run an angular application </i>
+- #### Install the Angular CLI
+<i> ( only for those who have never run an angular application )</i>
 
 ````bash
 npm install -g @angular/cli
@@ -55,21 +51,21 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ````
 <br>
 
-### Create a workspace and initial application
+- #### Create a workspace and initial application
 
 ````bash
 ng new my-app
 ````
 <br>
 
-###  Install Angular Material
+- ####  Install Angular Material
 
 ````bash
 ng add @angular/material
 ````
 <br>
 
-### Install Flex-Layout 
+- #### Install Flex-Layout 
 
 ````bash
 npm i @angular/flex-layout
@@ -84,14 +80,14 @@ npm i @angular/flex-layout
 
 <br>
 
-### Create Home Components 
+- #### Create Home Components 
 
 ````bash
 ng g m --route home --module app.module
 ````
 <br>
 
-### Create Shared Components 
+- #### Create Shared Components 
 
 ````bash
 ng g c input
@@ -101,21 +97,21 @@ ng g m input
 ````
 <br>
 
-### Add FlexLayoutModule in imports of Module Components
+- #### Add FlexLayoutModule in imports of Module Components
 ````bash
 import { FlexLayoutModule } from '@angular/flex-layout';
 ````
 <br>
 
 ## 🌐 Create generic components ( Input, Header );
+<br>
 
-### Input
+- #### Input
 https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/input
 <br>
 
-### Header
+- #### Header
 https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/header
-<br>
 <br>
 <br>
 
@@ -124,8 +120,7 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/pages/exem
 <br>
 <br>
 
-### component.ts
-  <br>
+- #### component.ts
 
 <i>Get a variable with the current page width</i>
 ````bash
@@ -142,8 +137,7 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/pages/exem
   ````
   <br>
   
-### component.scss
-<br>
+- #### component.scss
 
 <i>mediaQuery</i>
 ````bash
@@ -159,8 +153,7 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/pages/exem
 ````
 <br>
 
-### component.html
-<br>
+- #### component.html
 
 <i>FlexLayout commands</i>
  
