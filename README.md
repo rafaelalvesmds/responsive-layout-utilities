@@ -198,7 +198,7 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/pages/exem
 </table>
 <br> <br>
 
-## Bibliographic reference
+## References
 
 - https://angular.io/
 - https://material.angular.io/
