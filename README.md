@@ -2,7 +2,11 @@
 	🚀 Responsive Layout 🚀
 </h1>
 
-<br>
+  <div style="display: inline_block" align="center"><br>
+    <img align="center" alt="Rafa-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+    <img align="center" alt="Rafa-Angular" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+  </div>
+  
 <br>
 
 # Summary
@@ -11,9 +15,8 @@
 - Creating an Angular application;
 - Structure the project ( Folders and Modules );
 - Create generic components ( Input, Header );
-- Ways to make the page responsive
-- .
-- Bibliographic reference
+- Ways to make the page responsive;
+- Bibliographic reference;
 
 <br>
 <br>
@@ -32,11 +35,13 @@
  ![4](https://user-images.githubusercontent.com/84939473/168598379-f2cc9db2-6fd1-4905-b0ca-8099279a949c.png)
 <br>
 <br>
+<br>
 
 ## ▶️ Creating an Angular application
+<br>
 
-### Install the Angular CLI
-<i> only for those who have never run an angular application </i>
+- #### Install the Angular CLI
+<i> ( Skip this step if you already have Angular CLI installed )</i>
 
 ````bash
 npm install -g @angular/cli
@@ -47,21 +52,21 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ````
 <br>
 
-### Create a workspace and initial application
+- #### Create a workspace and initial application
 
 ````bash
 ng new my-app
 ````
 <br>
 
-###  Install Angular Material
+- ####  Install Angular Material
 
 ````bash
 ng add @angular/material
 ````
 <br>
 
-### Install Flex-Layout 
+- #### Install Flex-Layout 
 
 ````bash
 npm i @angular/flex-layout
@@ -76,14 +81,14 @@ npm i @angular/flex-layout
 
 <br>
 
-### Create Home Components 
+- #### Create Home Components 
 
 ````bash
 ng g m --route home --module app.module
 ````
 <br>
 
-### Create Shared Components 
+- #### Create Shared Components 
 
 ````bash
 ng g c input
@@ -93,30 +98,31 @@ ng g m input
 ````
 <br>
 
-### Add FlexLayoutModule in imports of Module Components
+- #### Add FlexLayoutModule in imports of Module Components
 ````bash
 import { FlexLayoutModule } from '@angular/flex-layout';
 ````
 <br>
-
-## 🌐 Create generic components ( Input, Header );
 <br>
 
-### Input
+## 🌐 Create generic components ( Input, Header );
+
+- #### Input
 https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/input
 <br>
 
-### Header
+- #### Header
 https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/header
 <br>
 <br>
 <br>
 
 ## 🔀 Ways to make the page responsive;
-  <br>
+https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/pages/exemples
+<br>
+<br>
 
-### component.ts
-  <br>
+- #### component.ts
 
 <i>Get a variable with the current page width</i>
 ````bash
@@ -133,8 +139,7 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/hea
   ````
   <br>
   
-### component.scss
-<br>
+- #### component.scss
 
 <i>mediaQuery</i>
 ````bash
@@ -150,8 +155,7 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/hea
 ````
 <br>
 
-### component.html
-<br>
+- #### component.html
 
 <i>FlexLayout commands</i>
  
@@ -194,10 +198,26 @@ https://github.com/rafaelalvesmds/responsive-layout/tree/main/src/app/shared/hea
 </table>
 <br> <br>
 
-## Bibliographic reference
+## References
 
 - https://angular.io/
 - https://material.angular.io/
 - https://www.npmjs.com/package/@angular/flex-layout
 - https://tburleson-layouts-demos.firebaseapp.com/#/docs
 - https://github.com/angular/flex-layout/wiki/API-Documentation
+
+<br>
+
+## Author
+
+   <table> <td ><a href="https://github.com/rafaelalvesmds"><img src="https://avatars.githubusercontent.com/u/84939473?s=96&v=4" width="100px;" alt=""/><br /><sub><b>Rafael Alves</b></sub></a><br /></td></table>
+
+<br>
+
+
+## Contact
+<div> 
+    <a href="https://discord.gg/hjAZmUSM" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank" ></a> 
+    <a href = "mailto:rafaelalvesmds.dev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/rafael-alves-02a749213/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+</div>
