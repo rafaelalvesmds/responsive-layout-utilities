@@ -16,7 +16,7 @@
 - Structure the project ( Folders and Modules );
 - Create generic components ( Input, Header );
 - Ways to make the page responsive;
-- Bibliographic reference;
+- References;
 
 <br>
 <br>
