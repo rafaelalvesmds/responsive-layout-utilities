@@ -25,16 +25,12 @@
 <br>
 
 ![2](https://user-images.githubusercontent.com/84939473/168598322-65894e3f-7ca4-4006-a799-68b8692aeab6.png)
-<br>
-<br>
 
 ![3](https://user-images.githubusercontent.com/84939473/168598355-d488c62b-090c-42a3-b7f9-5bc5131a5f75.png)
-<br>
-<br>
+
  
  ![4](https://user-images.githubusercontent.com/84939473/168598379-f2cc9db2-6fd1-4905-b0ca-8099279a949c.png)
-<br>
-<br>
+
 <br>
 
 ## ▶️ Creating an Angular application
