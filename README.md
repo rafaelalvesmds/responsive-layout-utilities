@@ -16,6 +16,9 @@
 - Structure the project ( Folders and Modules );
 - Create generic components ( Input, Header );
 - Ways to make the page responsive;
+  - Flex Layout
+  - Using @HostListener('window:resize', ['$event']) in component.ts
+  - Using "@media only screen" in components.scss
 - References;
 
 <br>
